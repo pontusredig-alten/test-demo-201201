@@ -15,9 +15,7 @@ public class UserInterface {
                 System.out.println(input);
             } catch (InputMismatchException ex) {
                 throw new InputMismatchException("Det där är inte en siffra!");
-
             }
-
         }
     }
 
